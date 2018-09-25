@@ -27,7 +27,7 @@
   <packaging>bundle</packaging>
   <name>Apache Felix Framework</name>
   <artifactId>org.apache.felix.framework</artifactId>
-  <version>6.0.1</version>
+  <version>6.0.1-axway1</version>
   <properties>
     <dollar>$</dollar>
     <felix.java.version>6</felix.java.version>
@@ -54,7 +54,7 @@
             <Export-Package>
                 org.osgi.framework.*;-split-package:=first,
                 org.osgi.resource;-split-package:=first,
-                org.osgi.resource.dto;-split-package:=first,                
+                org.osgi.resource.dto;-split-package:=first,
                 org.osgi.service.packageadmin;-split-package:=first,
                 org.osgi.service.startlevel;-split-package:=first,
 	        org.osgi.service.url;-split-package:=first,
